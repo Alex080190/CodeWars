@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println(Troll.digital_root(458));
+        System.out.println("lk;asfjlas;dkjfl;skad");
     }
 }
 
@@ -16,5 +17,6 @@ class Troll {
         else {
             return digital_root(Integer.sum(n % 10, n / 10));
         }
+
     }
 }
